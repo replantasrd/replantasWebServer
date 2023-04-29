@@ -21,6 +21,7 @@ Proyecto Final
 - [x] Crear servidor web basico
 - [x] Crear las rutas
 - [x] Configurar el motor de plantillas (ejs o hbs)
+- [x] Montar pagina en el servidor
 
 **Base de datos**
 

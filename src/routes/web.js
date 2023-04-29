@@ -6,8 +6,8 @@ router.get('/', (req, res)=>{
     res.render('./pages/index')
 });
 
-router.get('/services', (req, res)=>{
-    res.render('./pages/services')
+router.get('/shop', (req, res)=>{
+    res.render('./pages/shop')
 });
 
 router.get('/about', (req, res)=>{
@@ -15,7 +15,11 @@ router.get('/about', (req, res)=>{
 });
 
 router.get('/contact', (req, res)=>{
-    res.render('./pages/contacts')
+    res.render('./pages/contact')
+});
+
+router.get('/portfolio', (req, res)=>{
+    res.render('./pages/portfolio')
 });
 
 router.get('/blog', (req,res)=>{
@@ -23,4 +27,3 @@ router.get('/blog', (req,res)=>{
 });
 
 module.exports = router;
-
