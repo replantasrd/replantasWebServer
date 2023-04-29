@@ -9,7 +9,7 @@ Proyecto Final
 **Configuración entorno de desarrollo**
 
 - [x] Crear y configurar Repositorio
-- [ ] Configurar el hosting del proyecto
+- [x] Configurar el hosting del proyecto
 - [ ] Configurar el servidor de base de datos
 - [ ] Crear tablas
 
@@ -19,8 +19,8 @@ Proyecto Final
 - [x] Definir las tecnologias a utilizar
 - [x] Definir la estructura de archivos
 - [x] Crear servidor web basico
-- [ ] Crear las rutas
-- [ ] Configurar el motor de plantillas (ejs o hbs)
+- [x] Crear las rutas
+- [x] Configurar el motor de plantillas (ejs o hbs)
 
 **Base de datos**
 
