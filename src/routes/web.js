@@ -3,23 +3,24 @@ const router = express.Router();
 
 
 router.get('/', (req, res)=>{
-    res.send('Welcome to the homepage!');
+    res.render('./pages/index')
 });
 
 router.get('/services', (req, res)=>{
-    res.send('Welcome to the services page!');
+    res.render('./pages/services')
 });
 
 router.get('/about', (req, res)=>{
-    res.send('Welcome to the about page!');
+    res.render('./pages/about')
 });
 
 router.get('/contact', (req, res)=>{
-    res.send('Welcome to the contact page!');
+    res.render('./pages/contacts')
 });
 
-router.get('blog', (req,res)=>{
-    res.send('Welcome to the blog page!');
+router.get('/blog', (req,res)=>{
+    res.render('./pages/blog')
 });
 
 module.exports = router;
+
